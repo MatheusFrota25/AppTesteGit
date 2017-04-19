@@ -1,6 +1,32 @@
 
-section{
-width:1000px;
-height:500px;
-background-color:pink;
+#Conteudo{
+	width:500px;
+	height:500px;
+	margin:auto;
+	border:solid 1px;
 }
+
+#Conteudo:hover{
+	box-shadow: 1px 1px, 2px 2px, 3px 3px #00FF00;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    transition:0.3s;
+
+}
+
+h1{
+	font-family:Arial;
+	font-size:30px;
+	color:blue;
+	margin:auto;
+	margin-left:100px;
+}
+
+h1:hover{
+	transition:0.1s;
+	border-bottom:solid 2px black; 
+	list-style:none;
+	width:310px;
+
+}
+
